@@ -20,3 +20,8 @@ const retornaMenorId = () => {
 console.log(retornaMenorId())
 
 // - 3º commit: Use o map() para colocar todos os nomes no formato UpperCase.
+const nomesFunc = () => {
+    return Funcionarios.map(funcionario => funcionario.nome.toLocaleUpperCase())
+
+}
+console.table(nomesFunc())
